@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1641611375105.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "797589889",
+    "id" : "C56283E3",
+    "lastKnownWriteTime" : 1641611405,
+    "last_content_update" : 1641684974874,
+    "path" : "~/Documents/GitHub Projects/GGCA Green Spaces/Archive.R",
+    "project_path" : "Archive.R",
+    "properties" : {
+        "cursorPosition" : "9,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

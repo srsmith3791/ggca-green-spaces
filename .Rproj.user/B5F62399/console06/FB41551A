@@ -1,0 +1,291 @@
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+]0;~/Documents/GitHub Projects/GGCA Green Spaces[?1034hSRSs-Air:GGCA Green Spaces shannonsmith$ [KSRSs-Air:GGCA Green Spaces shannonsmith$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31mArchive.R[m
+	[31mConnect Bmore Open Data.R[m
+	[31mGGCA Green Spaces.Rproj[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git a[Kadd archive.r
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git add comme[K[K[Knnect bmore mo[K[Kope[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit add `CC[K[KGGCA Green Spaces.Rproj`
+bash: GGCA: command not found
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git add 'GGCA S[KGreen Spaces.Rproj'
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   GGCA Green Spaces.Rproj[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31mArchive.R[m
+	[31mConnect Bmore Open Data.R[m
+
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ go[Kit commit - m[K[Km "First Push"
+[main 2c16eeb] First Push
+ Committer: Shannon Smith <shannonsmith@SRSs-Air.lan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 13 insertions(+)
+ create mode 100644 GGCA Green Spaces.Rproj
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git push
+error: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': srsmith2791`     3791
+error: cannot run rpostback-askpass: No such file or directory
+Password for 'https://srsmith3791@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/srsmith3791/ggca-green-spaces.git/'
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ usethis::create_gitbu[K[Khub_token()
+> 
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git push
+error: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': srsmith3791
+error: cannot run rpostback-askpass: No such file or directory
+Password for 'https://srsmith3791@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/srsmith3791/ggca-green-spaces.git/'
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git up[K[Kpush
+error: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': srsmith3791
+error: cannot run rpostback-askpass: No such file or directory
+Password for 'https://srsmith3791@github.com': 
+Enumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 440 bytes | 220.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/srsmith3791/ggca-green-spaces.git
+   e6c5dea..2c16eeb  main -> main
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31mArchive.R[m
+	[31mConnect Bmore Open Data.R[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ [KSRSs-Air:GGCA Green Spaces shannonsmith$ [KSRSs-Air:GGCA Green Spaces shannonsmith$ git pull
+remote: Enumerating objects: 4, done.[K
+remote: Counting objects:  25% (1/4)[Kremote: Counting objects:  50% (2/4)[Kremote: Counting objects:  75% (3/4)[Kremote: Counting objects: 100% (4/4)[Kremote: Counting objects: 100% (4/4), done.[K
+remote: Compressing objects:  50% (1/2)[Kremote: Compressing objects: 100% (2/2)[Kremote: Compressing objects: 100% (2/2), done.[K
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)Unpacking objects:  66% (2/3)Unpacking objects: 100% (3/3)Unpacking objects: 100% (3/3), done.
+From https://github.com/srsmith3791/ggca-green-spaces
+   2c16eeb..5971786  main       -> origin/main
+Updating 2c16eeb..5971786
+Fast-forward
+ test | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git comm[K[K[K[Kadd archive.[K[K[K[K[K[K[K[KArchive.r
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31mArchive.R[m
+	[31mConnect Bmore Open Data.R[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git add 'Arci[Khive.R'
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   Archive.R[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31mConnect Bmore Open Data.R[m
+
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git add "[K'Connect Bmore Open Data/R[K[K.R"[K'
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ st[K[Kgit status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   Archive.R[m
+	[32mnew file:   Connect Bmore Open Data.R[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   Archive.R[m
+	[32mnew file:   Connect Bmore Open Data.R[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.Rproj.user/[m
+
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git commit '[K-[Km[K-m "more files"
+[main 365a1a6] more files
+ Committer: Shannon Smith <shannonsmith@SRSs-Air.lan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 60 insertions(+)
+ create mode 100644 Archive.R
+ create mode 100644 Connect Bmore Open Data.R
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git push
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 1.05 KiB | 1.05 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/srsmith3791/ggca-green-spaces.git
+   5971786..365a1a6  main -> main
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git checkout -b srsa[K_air
+Switched to a new branch 'srs_air'
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ gt[Kit ts[K[Kstatus
+On branch srs_air
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   README.md[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.Rproj.user/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git add ./[K
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git status
+On branch srs_air
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   .Rproj.user/B5F62399/console06/FB41551A[m
+	[32mnew file:   .Rproj.user/B5F62399/console06/FB41551A.env[m
+	[32mnew file:   .Rproj.user/B5F62399/console06/INDEX001[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/prop/6C158BCF[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/prop/92ED8245[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/prop/951AFEFA[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/prop/E083421C[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/prop/E982CEA4[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/prop/INDEX[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/s-9909E8F8/6828270C-contents[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/s-9909E8F8/7B64A348[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/s-9909E8F8/7B64A348-contents[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/s-9909E8F8/8F5530FC-contents[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/s-9909E8F8/C56283E3[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/s-9909E8F8/C56283E3-contents[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/s-9909E8F8/CF405867[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/s-9909E8F8/CF405867-contents[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/s-9909E8F8/lock_file[m
+	[32mnew file:   .Rproj.user/shared/notebooks/patch-chunk-names[m
+	[32mnew file:   .Rproj.user/shared/notebooks/paths[m
+	[32mmodified:   README.md[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .Rproj.user/B5F62399/console06/FB41551A[m
+
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git commit -m "See what happens"
+[srs_air bf6e06d] See what happens
+ Committer: Shannon Smith <shannonsmith@SRSs-Air.lan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 21 files changed, 441 insertions(+), 1 deletion(-)
+ create mode 100644 .Rproj.user/B5F62399/console06/FB41551A
+ create mode 100644 .Rproj.user/B5F62399/console06/FB41551A.env
+ create mode 100644 .Rproj.user/B5F62399/console06/INDEX001
+ create mode 100644 .Rproj.user/B5F62399/sources/prop/6C158BCF
+ create mode 100644 .Rproj.user/B5F62399/sources/prop/92ED8245
+ create mode 100644 .Rproj.user/B5F62399/sources/prop/951AFEFA
+ create mode 100644 .Rproj.user/B5F62399/sources/prop/E083421C
+ create mode 100644 .Rproj.user/B5F62399/sources/prop/E982CEA4
+ create mode 100644 .Rproj.user/B5F62399/sources/prop/INDEX
+ create mode 100644 .Rproj.user/B5F62399/sources/s-9909E8F8/6828270C-contents
+ create mode 100644 .Rproj.user/B5F62399/sources/s-9909E8F8/7B64A348
+ create mode 100644 .Rproj.user/B5F62399/sources/s-9909E8F8/7B64A348-contents
+ create mode 100644 .Rproj.user/B5F62399/sources/s-9909E8F8/8F5530FC-contents
+ create mode 100644 .Rproj.user/B5F62399/sources/s-9909E8F8/C56283E3
+ create mode 100644 .Rproj.user/B5F62399/sources/s-9909E8F8/C56283E3-contents
+ create mode 100644 .Rproj.user/B5F62399/sources/s-9909E8F8/CF405867
+ create mode 100644 .Rproj.user/B5F62399/sources/s-9909E8F8/CF405867-contents
+ create mode 100644 .Rproj.user/B5F62399/sources/s-9909E8F8/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git push
+fatal: The current branch srs_air has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin srs_air
+
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git commit
+On branch srs_air
+Changes not staged for commit:
+	[31mmodified:   .Rproj.user/B5F62399/console06/FB41551A[m
+
+no changes added to commit
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git status
+On branch srs_air
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .Rproj.user/B5F62399/console06/FB41551A[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git add. [K[K . 
