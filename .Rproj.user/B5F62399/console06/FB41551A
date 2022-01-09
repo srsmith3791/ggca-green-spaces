@@ -201,3 +201,91 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git add ./[K
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git status
+On branch srs_air
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   .Rproj.user/B5F62399/console06/FB41551A[m
+	[32mnew file:   .Rproj.user/B5F62399/console06/FB41551A.env[m
+	[32mnew file:   .Rproj.user/B5F62399/console06/INDEX001[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/prop/6C158BCF[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/prop/92ED8245[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/prop/951AFEFA[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/prop/E083421C[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/prop/E982CEA4[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/prop/INDEX[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/s-9909E8F8/6828270C-contents[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/s-9909E8F8/7B64A348[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/s-9909E8F8/7B64A348-contents[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/s-9909E8F8/8F5530FC-contents[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/s-9909E8F8/C56283E3[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/s-9909E8F8/C56283E3-contents[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/s-9909E8F8/CF405867[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/s-9909E8F8/CF405867-contents[m
+	[32mnew file:   .Rproj.user/B5F62399/sources/s-9909E8F8/lock_file[m
+	[32mnew file:   .Rproj.user/shared/notebooks/patch-chunk-names[m
+	[32mnew file:   .Rproj.user/shared/notebooks/paths[m
+	[32mmodified:   README.md[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .Rproj.user/B5F62399/console06/FB41551A[m
+
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git commit -m "See what happens"
+[srs_air bf6e06d] See what happens
+ Committer: Shannon Smith <shannonsmith@SRSs-Air.lan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 21 files changed, 441 insertions(+), 1 deletion(-)
+ create mode 100644 .Rproj.user/B5F62399/console06/FB41551A
+ create mode 100644 .Rproj.user/B5F62399/console06/FB41551A.env
+ create mode 100644 .Rproj.user/B5F62399/console06/INDEX001
+ create mode 100644 .Rproj.user/B5F62399/sources/prop/6C158BCF
+ create mode 100644 .Rproj.user/B5F62399/sources/prop/92ED8245
+ create mode 100644 .Rproj.user/B5F62399/sources/prop/951AFEFA
+ create mode 100644 .Rproj.user/B5F62399/sources/prop/E083421C
+ create mode 100644 .Rproj.user/B5F62399/sources/prop/E982CEA4
+ create mode 100644 .Rproj.user/B5F62399/sources/prop/INDEX
+ create mode 100644 .Rproj.user/B5F62399/sources/s-9909E8F8/6828270C-contents
+ create mode 100644 .Rproj.user/B5F62399/sources/s-9909E8F8/7B64A348
+ create mode 100644 .Rproj.user/B5F62399/sources/s-9909E8F8/7B64A348-contents
+ create mode 100644 .Rproj.user/B5F62399/sources/s-9909E8F8/8F5530FC-contents
+ create mode 100644 .Rproj.user/B5F62399/sources/s-9909E8F8/C56283E3
+ create mode 100644 .Rproj.user/B5F62399/sources/s-9909E8F8/C56283E3-contents
+ create mode 100644 .Rproj.user/B5F62399/sources/s-9909E8F8/CF405867
+ create mode 100644 .Rproj.user/B5F62399/sources/s-9909E8F8/CF405867-contents
+ create mode 100644 .Rproj.user/B5F62399/sources/s-9909E8F8/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git push
+fatal: The current branch srs_air has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin srs_air
+
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git commit
+On branch srs_air
+Changes not staged for commit:
+	[31mmodified:   .Rproj.user/B5F62399/console06/FB41551A[m
+
+no changes added to commit
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git status
+On branch srs_air
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .Rproj.user/B5F62399/console06/FB41551A[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Documents/GitHub Projects/GGCA Green SpacesSRSs-Air:GGCA Green Spaces shannonsmith$ git add. [K[K . 
